@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Films.Api", "Films.Api\Film
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Films.Core", "Films.Core\Films.Core.csproj", "{CC76084C-5C6B-4447-9C3A-6D52115AF404}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Films.Data", "Films.Data\Films.Data.csproj", "{F73BDE6C-1808-4252-B458-E0B0871406C9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,5 +21,9 @@ Global
 		{CC76084C-5C6B-4447-9C3A-6D52115AF404}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC76084C-5C6B-4447-9C3A-6D52115AF404}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC76084C-5C6B-4447-9C3A-6D52115AF404}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F73BDE6C-1808-4252-B458-E0B0871406C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F73BDE6C-1808-4252-B458-E0B0871406C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F73BDE6C-1808-4252-B458-E0B0871406C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F73BDE6C-1808-4252-B458-E0B0871406C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

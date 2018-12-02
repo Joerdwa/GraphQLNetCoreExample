@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="InMemory\" />
+    <Folder Include="EntityFramework\" />
+    <Folder Include="EntityFramework\Repository\" />
+    <Folder Include="EntityFramework\Seed\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Films.Core\Films.Core.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.1.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="2.1.4" />
+  </ItemGroup>
+</Project>
