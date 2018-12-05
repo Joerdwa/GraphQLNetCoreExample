@@ -1,5 +1,4 @@
-﻿using System;
-namespace Films.Core.Models
+﻿namespace Films.Core.Models
 {
     public class Film
     {

@@ -28,7 +28,6 @@ namespace Films.Api
 
             services.AddTransient<MovieQuery>();
             services.AddTransient<IFilmRepository, FilmRepository>();
-            var test = Configuration["ConnectionStrings:MoviesDBConnection"];
             services.AddDbContext<MovieContext>(options =>
                                                 options.UseSqlite(Configuration["ConnectionStrings:MoviesDBConnection"]));
         }
