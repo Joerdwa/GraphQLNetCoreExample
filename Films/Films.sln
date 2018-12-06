@@ -1,11 +1,13 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Films.Api", "Films.Api\Films.Api.csproj", "{01B666DC-BFA7-4338-9730-379D94C94784}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Films.Api", "src\Films.Api\Films.Api.csproj", "{01B666DC-BFA7-4338-9730-379D94C94784}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Films.Core", "Films.Core\Films.Core.csproj", "{CC76084C-5C6B-4447-9C3A-6D52115AF404}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Films.Core", "src\Films.Core\Films.Core.csproj", "{CC76084C-5C6B-4447-9C3A-6D52115AF404}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Films.Data", "Films.Data\Films.Data.csproj", "{90D7F90C-015B-4EF0-AA47-67D4C9DFF544}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Films.Data", "src\Films.Data\Films.Data.csproj", "{90D7F90C-015B-4EF0-AA47-67D4C9DFF544}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Films.Data.Unit.Tests", "tests\Films.Data.Unit.Tests\Films.Data.Unit.Tests.csproj", "{01BBDB10-27EB-426E-90A5-FDC0F8547877}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,5 +27,9 @@ Global
 		{90D7F90C-015B-4EF0-AA47-67D4C9DFF544}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{90D7F90C-015B-4EF0-AA47-67D4C9DFF544}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{90D7F90C-015B-4EF0-AA47-67D4C9DFF544}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01BBDB10-27EB-426E-90A5-FDC0F8547877}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01BBDB10-27EB-426E-90A5-FDC0F8547877}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01BBDB10-27EB-426E-90A5-FDC0F8547877}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01BBDB10-27EB-426E-90A5-FDC0F8547877}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
